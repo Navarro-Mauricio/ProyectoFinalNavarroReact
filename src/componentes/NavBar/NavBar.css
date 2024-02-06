@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+@font-face {
+  font-family: lemonMilkMed;
+  src: url(/public/fonts/LEMONMILK-Medium.otf);
+}
+.cartImg {
+  width: 50px;
+ 
+
+}
+header nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 1000;
+  font-family: lemonmilkMed;
+}
+
+header nav .container-fluid {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+    
+}
+
+  
+  .headerTexto {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-flex;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    cursor: pointer;
+  }
+  
+  .headerTexto:focus,
+  .headerTexto:hover {
+    color: #1014c5;
+  }
+  
+  /* .headerTexto:focus span,
+  .headerTexto:hover span {
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    transition-duration: 400ms;
+  }
+   */
+  .headerTexto:focus:after,
+  .headerTexto:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .headerTexto:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #1014c5;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  
+  .headerTexto a {
+    padding: 0.4rem 0.7rem;
+    color: #1014c5;
+    text-decoration: none;
+  }
+  
+  .logo {
+      width: 300px;
+  }
+  
+  .circulo {
+    width: 30px;
+    height: 30px;
+    background-color: #1014c5;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.carritoConNumero {
+  display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 10px;
+}
+  

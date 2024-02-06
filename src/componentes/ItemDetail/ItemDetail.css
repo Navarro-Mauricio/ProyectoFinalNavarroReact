@@ -1,0 +1,15 @@
+.contenedorItem {
+    text-align: center;
+    margin: 4rem;
+    padding: 2rem;
+}
+
+.contenedorItem img {
+    width: 35vw;
+}
+
+.contenedorItem1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
